@@ -14,7 +14,7 @@
 4. 打包Android应用，请安装Android SDK；打包iOS应用，请安装Xcode。
 
 ### 步骤0. 使用XDK创建，编码,调试你的工程
-在打包之前，编码并调试好你的XDK工程。请注意，我们只是因为中国网络环境的原因，忽略XDK的在线打包功能。其他XDK功能，例如代码提示/模拟器/Live Development/真机调试/分析，还是一如既往的给力！关于这些功能，具体文档请参考：https://software.intel.com/zh-cn/intel-xdk/documentation。请充分利用这些基础设施来开发并完善你的应用，确保它们在模拟器/真机调试中都工作正常，然后就可以进入下面的离线打包环节。
+在打包之前，编码并调试好你的XDK工程。请注意，我们只是因为中国网络环境的原因，忽略XDK的在线打包功能。其他XDK功能，例如代码提示/模拟器/Live Development/真机调试/分析，还是一如既往的给力！关于这些功能，具体文档请参考：https://software.intel.com/zh-cn/intel-xdk/documentation。 请充分利用这些基础设施来开发并完善你的应用，确保它们在模拟器/真机调试中都工作正常，然后就可以进入下面的离线打包环节。
 
 ### 步骤1. 创建新的Cordova工程
 我们将使用Cordova命令行来将XDK打包成各个平台的安装包（apk/ipa）。在这之前，我们需要先将XDK工程转换成一个Cordova工程。XDK工程的目录结构和一个典型的Cordova工程有显著区别，但是有一个很简单的办法将XDK工程转换成Cordova工程：
