@@ -73,7 +73,7 @@ plugman相关文档详见：http://cordova.apache.org/docs/en/5.1.1/plugin_ref/p
 3. 在模拟器重调试项目，确保应用界面布局和代码逻辑正确：
    ![](emulate.png)
 4. 真机调试，确保XDK应用在真机设备上也能正常工作：
-
+   ![](debug.png)
 ### 步骤1. 创建空的Cordova工程
 1. 切换到工作目录，输入如下命令：
 
