@@ -1,0 +1,3 @@
+# XDK2Cordova
+
+XDK项目离线打包成Cordova项目的文档见doc/README.md。XDKProject里是样例XDK工程，CordovaProject是打包后的Cordova工程。
