@@ -52,8 +52,8 @@ XDK提供了便捷的Cordova插件安装和配置功能，遗憾的是使用离�
 
 使用plugman来安装插件：
 
-1. 为Android应用添加插件：<code>$ plugman --platform android --project platforms/android --plugin <url/name/path-to-plugin/></code>
-2. 为iOS应用添加插件：<code>$ plugman --platform ios --project platforms/ios --plugin <url/name/path-to-plugin/></code>
+1. 为Android应用添加插件：<code>$ plugman --platform android --project platforms/android --plugin url/name/path-to-plugin</code>
+2. 为iOS应用添加插件：<code>$ plugman --platform ios --project platforms/ios --plugin url/name/path-to-plugin</code>
 
 plugman相关文档详见：http://cordova.apache.org/docs/en/5.1.1/plugin_ref/plugman.html
 
@@ -120,15 +120,15 @@ plugman相关文档详见：http://cordova.apache.org/docs/en/5.1.1/plugin_ref/p
 
 * 安装Android平台插件：
 
-<code>$ plugman --platform android --project platforms/android --plugin <local-path-to-org.apache.cordova.device/></code>
+<code>$ plugman --platform android --project platforms/android --plugin ../MyProject/plugins/org.apache.cordova.device</code>
 
-<code>$ plugman --platform android --project platforms/android --plugin <local-path-to-org.apache.cordova.splashscreen/></code>
+<code>$ plugman --platform android --project platforms/android --plugin  ../MyProject/plugins/org.apache.cordova.splashscreen</code>
 
 * 安装iOS平台插件：
 
-<code>$ plugman --platform ios --project platforms/android --plugin <local-path-to-org.apache.cordova.device/></code>
+<code>$ plugman --platform ios --project platforms/android --plugin ../MyProject/plugins/org.apache.cordova.device</code>
 
-<code>$ plugman --platform ios --project platforms/android --plugin <local-path-to-org.apache.cordova.splashscreen/></code>
+<code>$ plugman --platform ios --project platforms/android --plugin ../MyProject/plugins/org.apache.cordova.splashscreen</code>
 
 ### 步骤5. 编译安装包
 1. Android apk: 将myproject/platforms/android目录导入eclipse中，编译出apk。
