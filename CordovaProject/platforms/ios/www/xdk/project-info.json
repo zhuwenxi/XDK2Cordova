@@ -1,0 +1,9 @@
+{
+  "__comment__": "/*此文件由英特尔 XDK 自动生成。*/",
+  "signatureVersion": 1,
+  "xdkVersion": "2337",
+  "usesAppDesigner": "false",
+  "projectGuid": "ffcfb85a-ba28-499d-9e7d-37ce834d581e",
+  "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+  "src": "https://appcenter.html5tools-software.intel.com/api/v2.0/redirect/projectrenderers/release-2015-ww32/jsapp/templates-blank-cordova-project/sample.zip"
+}
